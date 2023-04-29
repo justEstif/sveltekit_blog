@@ -1,6 +1,6 @@
 ---
-title: First Post
-description: First Post
+title: Second Post
+description: Second Post
 date: '2023-04-30'
 categories:
   - sveltekit
