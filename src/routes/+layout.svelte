@@ -4,8 +4,8 @@
 	import 'open-props/buttons'
 
 	import '../app.css'
-	import Header from './header.svelte'
-	import Footer from './footer.svelte'
+	import Header from '$lib/components/header.svelte'
+	import Footer from '$lib/components/footer.svelte'
 </script>
 
 <div class="layout">
