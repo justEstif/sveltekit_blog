@@ -8,6 +8,8 @@ categories:
 published: true
 ---
 
+## Table of Contents
+
 ## Header
 
 Media inside the **static** is served
