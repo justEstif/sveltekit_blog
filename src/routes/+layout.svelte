@@ -6,12 +6,16 @@
 	import '../app.css'
 	import Header from '$lib/components/header.svelte'
 	import Footer from '$lib/components/footer.svelte'
+	import PageTransition from '$lib/components/transition.svelte'
+	export let data
 </script>
 
 <div class="layout">
 	<Header />
 	<main>
-		<slot />
+		<PageTransition url={data.url}>
+			<slot />
+		</PageTransition>
 	</main>
 	<Footer />
 </div>
